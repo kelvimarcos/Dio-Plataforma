@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Classificador de Herói</title>
+
+</head>
+
+<body>
+
+    <h1>Classificador de Nível de Herói</h1>
+
+    
+
+    <script>
+
+        // Solicitar e guardar nomes dos personagens
+
+        let nomeHeroi = prompt("Digite o nome do herói:");
+
+        let xp = Number(prompt("Digite a quantidade de XP do herói:"));
+
+        
+
+        // armazenar as informções do nível
+
+        let nivel;
+
+        
+
+        // classificar o nível  do herói com base no XP
+
+        if (xp < 1000) {
+
+            nivel = "Ferro";
+
+        } else if (xp >= 1001 && xp <= 2000) {
+
+            nivel = "Bronze";
+
+        } else if (xp >= 2001 && xp <= 5000) {
+
+            nivel = "Prata";
+
+        } else if (xp >= 5001 && xp <= 7000) {
+
+            nivel = "Ouro";
+
+        } else if (xp >= 7001 && xp <= 8000) {
+
+            nivel = "Platina";
+
+        } else if (xp >= 8001 && xp <= 9000) {
+
+            nivel = "Ascendente";
+
+        } else if (xp >= 9001 && xp <= 10000) {
+
+            nivel = "Imortal";
+
+        } else {
+
+            nivel = "Radiante";
+
+        }
+
+        
+
+        // mostrar na tela o nome e o nível do personagem
+
+        alert("O Herói de nome " + nomeHeroi + " está no nível de " + nivel);
+
+    </script>
+
+</body>
+
+</html>
