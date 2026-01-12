@@ -44,7 +44,7 @@ O objetivo é treinar lógica de programação, estruturas condicionais e manipu
 ---
 
 ## ⚠️ Observações Importantes
-- O código foi adaptado aos recursos que mias utilizo para fazer testes, por isso, deve ter pequenas diferenças ao que foi pedido pelo desafio.  
+- Modifiquei o desafio a forma que tenho mais familiaridade para melhor entendimento sobre o projeto.
 - Estou `prompt()` para entrada e `document.getElementById().innerText` para saída.  
 
 ---
