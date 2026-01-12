@@ -44,28 +44,13 @@ O objetivo é treinar lógica de programação, estruturas condicionais e manipu
 ---
 
 ## ⚠️ Observações Importantes
-- O código foi adaptado para rodar no navegador.  
-- Agora utiliza `prompt()` para entrada e `document.getElementById().innerText` para saída.  
-- É possível anexar imagens do projeto rodando no navegador para documentação.
-
----
-
-## ▶️ Como Executar
-1. Copie o código para um arquivo `index.html`.
-2. Abra a pasta no VS Code.
-3. Clique com o botão direito no `index.html` e selecione **"Open with Live Server"**.
-4. Digite os valores de vitórias e derrotas quando solicitado.
-5. Veja o resultado diretamente na página.
-
----
-/
-
+- O código foi adaptado aos recursos que mias utilizo para fazer testes, por isso, deve ter pequenas diferenças ao que foi pedido pelo desafio.  
+- Estou `prompt()` para entrada e `document.getElementById().innerText` para saída.  
 
 ---
 
 ## 📸 Capturas de Tela
-> O código entende a quantida de vítórias o usuário estar
-
+> 
 
 
 
