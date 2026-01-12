@@ -66,16 +66,9 @@ O objetivo é treinar lógica de programação, estruturas condicionais e manipu
 
 
 
-
-
-> Exemplo: prints da tela mostrando o `prompt()` e o resultado exibido na página.
-
 ---
 
 ## 📌 Próximos Passos
-- Criar inputs e botão no HTML para substituir o `prompt()`.
+- Criar visualização com CSS3
 - Exibir o resultado com estilização em CSS.
 - Adicionar imagens ilustrativas no README para enriquecer a documentação.
-
-
-## ✨ Exemplo de Saída
