@@ -1,0 +1,84 @@
+## 🧮 Calculadora Rankeada
+
+Este projeto é uma **calculadora de ranking de heróis**, desenvolvida em **HTML + JavaScript** como parte do desafio do curso Blip - Lógica de Programação(Dio) 
+com o professor "Felipe Aguiar(https://github.com/felipeAguiarCode)".
+O objetivo é treinar lógica de programação, estruturas condicionais e manipulação de entradas/saídas, agora funcionando diretamente no navegador com **Live Server**.
+
+---
+
+## 🚀 Funcionalidades
+- Solicita ao usuário o número de **vitórias** e **derrotas** via `prompt()`.
+- Calcula o **saldo de vitórias** (`vitórias - derrotas`).
+- Classifica o herói em um **nível**:
+  - Ferro
+  - Bronze
+  - Prata
+  - Ouro
+  - Diamante
+  - Lendário
+  - Imortal
+- Exibe o resultado diretamente na página HTML.
+
+---
+
+## 📂 Estrutura do Projeto
+- `index.html` → Página principal com o script da calculadora.
+- `script` interno → Contém a função `calcularNivel`.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- **HTML5** → Estrutura da página.
+- **JavaScript** → Lógica de cálculo e classificação.
+- **Live Server (VS Code)** → Para rodar o projeto no navegador em tempo real.
+
+---
+
+## 📖 O que aprendi com este projeto
+- Criar funções em JavaScript e retornar valores.
+- Usar **estruturas condicionais (`if/else if`)** para classificar dados.
+- Manipular entradas e saídas diretamente no navegador com `prompt()` e `innerText`.
+- Corrigir intervalos para não deixar valores sem classificação (ex.: número 10).
+- Integrar o projeto com **Live Server** para visualização rápida.
+
+---
+
+## ⚠️ Observações Importantes
+- O código foi adaptado para rodar no navegador.  
+- Agora utiliza `prompt()` para entrada e `document.getElementById().innerText` para saída.  
+- É possível anexar imagens do projeto rodando no navegador para documentação.
+
+---
+
+## ▶️ Como Executar
+1. Copie o código para um arquivo `index.html`.
+2. Abra a pasta no VS Code.
+3. Clique com o botão direito no `index.html` e selecione **"Open with Live Server"**.
+4. Digite os valores de vitórias e derrotas quando solicitado.
+5. Veja o resultado diretamente na página.
+
+---
+/
+
+
+---
+
+## 📸 Capturas de Tela
+> O código entende a quantida de vítórias o usuário estar
+
+
+
+
+
+
+> Exemplo: prints da tela mostrando o `prompt()` e o resultado exibido na página.
+
+---
+
+## 📌 Próximos Passos
+- Criar inputs e botão no HTML para substituir o `prompt()`.
+- Exibir o resultado com estilização em CSS.
+- Adicionar imagens ilustrativas no README para enriquecer a documentação.
+
+
+## ✨ Exemplo de Saída
