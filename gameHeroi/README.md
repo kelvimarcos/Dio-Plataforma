@@ -76,6 +76,9 @@ class Heroi {
     console.log(`O ${this.tipo} atacou usando ${ataque}`);
   }
 }
+
+
+---
 🚀 Exemplos
 
 javascript
@@ -92,14 +95,17 @@ heroi4.atacar(); // O ninja atacou usando usou shuriken
 
 🏆 **Resultado Esperado**
 <br>
-<br>
 Ao executar esse código, o console exibirá mensagens como:
+<br>
 
-Código
 O guerreiro atacou usando usou espada
 O mago atacou usando usou magia
 O monge atacou usando usou artes marciais
 O ninja atacou usando usou shuriken
-📌 Conclusão
+<br><br>
+
+📌 **Conclusão**
+<br>
+<br>
 Este desafio reforça conceitos fundamentais de programação orientada a objetos e estruturas de decisão em JavaScript.
 Foi uma excelente prática proposta pelo professor Felipe Aguiar no curso de Lógica de Programação.
