@@ -1,19 +1,24 @@
-🕹️ Projeto: Classe de Herói em JavaScript
+🕹️ **Projeto: Classe de Herói em JavaScript**
 
 ---
 
 📖 Descrição
+<br>
+<br>
 Este projeto foi desenvolvido como parte de um desafio do curso de Lógica de Programação com o professor Felipe Aguiar.
 O exercício consiste em criar uma classe genérica chamada Heroi, representando personagens de uma aventura com propriedades e métodos que simulam ataques diferentes conforme o tipo de herói.
 
-🎯 Objetivo
+<br>
+
+🎯 **Objetivo**
+
+<br>
+
 Criar uma classe Heroi com as seguintes propriedades:
 
 nome
-
 idade
-
-tipo (ex.: guerreiro, mago, monge, ninja)
+tipo: guerreiro, mago, monge ou nija
 
 Implementar o método atacar(), que deve exibir a mensagem:
 
