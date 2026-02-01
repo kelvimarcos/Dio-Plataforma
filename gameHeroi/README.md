@@ -27,28 +27,30 @@ O {tipo} atacou usando {ataque}
 O ataque varia conforme o tipo do herói:
 
 mago → usou magia
-
 guerreiro → usou espada
-
 monge → usou artes marciais
-
 ninja → usou shuriken
+<br>
+<br>
 
-🛠️ Tecnologias Utilizadas
+🛠️**Tecnologias Utilizadas**
+
+<br>
+<br>
+
 JavaScript (ES6+)
 
-Conceitos de:
-
-Variáveis
-
-Estruturas de decisão (if/else)
-
-Funções
-
-Classes e Objetos
+Conceitos de: Variáveis, Estruturas de decisão (if/else), Funções, Classes e Objetos
 
 📂 Estrutura do Código
 javascript
+
+<br>
+<br>
+
+
+---
+
 class Heroi {
   constructor(nome, idade, tipo) {
     this.nome = nome;
@@ -74,7 +76,8 @@ class Heroi {
     console.log(`O ${this.tipo} atacou usando ${ataque}`);
   }
 }
-🚀 Exemplos de Uso
+🚀 Exemplos
+
 javascript
 const heroi1 = new Heroi("Arthas", 30, "guerreiro");
 const heroi2 = new Heroi("Merlin", 150, "mago");
@@ -85,8 +88,12 @@ heroi1.atacar(); // O guerreiro atacou usando usou espada
 heroi2.atacar(); // O mago atacou usando usou magia
 heroi3.atacar(); // O monge atacou usando usou artes marciais
 heroi4.atacar(); // O ninja atacou usando usou shuriken
-🏆 Resultado Esperado
-Ao executar o código, o console exibirá mensagens como:
+
+
+🏆 **Resultado Esperado**
+<br>
+<br>
+Ao executar esse código, o console exibirá mensagens como:
 
 Código
 O guerreiro atacou usando usou espada
